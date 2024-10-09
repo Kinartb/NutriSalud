@@ -1,0 +1,87 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos de cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #E6F7F3; /* Tono suave relacionado con #79CABE */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Para centrar el contenido verticalmente */
+    padding: 20px;
+    flex-direction: column; /* Para que los elementos se apilen verticalmente */
+}
+
+/* Contenedor principal */
+main {
+    width: 100%;
+    max-width: 800px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Encabezado */
+header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2em;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #79CABE;
+}
+
+section p, section ul {
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-align: justify; /* Justifica el texto */
+}
+
+/* Lista de miembros e informes */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 8px 0;
+    text-align: justify; /* Justifica el texto de las listas */
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: #79CABE;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #66B2A0;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    width: 100%;
+    margin-top: 20px;
+}
